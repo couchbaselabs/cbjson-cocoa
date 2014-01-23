@@ -65,8 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27064CBA1870ED5C00FDC152 /* murmurhash3_x86_32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = murmurhash3_x86_32.c; path = ../murmurhash3_x86_32.c; sourceTree = "<group>"; };
-		27064CBC1870EE5C00FDC152 /* murmurhash3_x86_32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = murmurhash3_x86_32.h; path = ../murmurhash3_x86_32.h; sourceTree = "<group>"; };
+		27064CBA1870ED5C00FDC152 /* murmurhash3_x86_32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = murmurhash3_x86_32.c; sourceTree = "<group>"; };
+		27064CBC1870EE5C00FDC152 /* murmurhash3_x86_32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = murmurhash3_x86_32.h; sourceTree = "<group>"; };
 		27064CBD1871EAAC00FDC152 /* CBIndexedJSONDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBIndexedJSONDict.h; sourceTree = "<group>"; };
 		27064CBE1871EAAC00FDC152 /* CBIndexedJSONDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBIndexedJSONDict.m; sourceTree = "<group>"; };
 		27064CC118721D9300FDC152 /* CBIndexedJSONFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBIndexedJSONFormat.h; sourceTree = "<group>"; };
@@ -234,7 +234,8 @@
 				272AA23818919F14001C44F1 /* murmurhash */,
 				2723CC66186E1D6C00B15536 /* yajl */,
 			);
-			path = vendor;
+			name = vendor;
+			path = ../vendor;
 			sourceTree = "<group>";
 		};
 		2723CC66186E1D6C00B15536 /* yajl */ = {
@@ -313,7 +314,7 @@
 				27064CBA1870ED5C00FDC152 /* murmurhash3_x86_32.c */,
 				27064CBC1870EE5C00FDC152 /* murmurhash3_x86_32.h */,
 			);
-			name = murmurhash;
+			path = murmurhash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
