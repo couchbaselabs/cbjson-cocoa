@@ -119,6 +119,7 @@
 		2723CECB186E1EA500B15536 /* CBIndexedJSONEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBIndexedJSONEncoder.m; sourceTree = "<group>"; };
 		2723CED2186E279C00B15536 /* CBJSONEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBJSONEncoder.h; sourceTree = "<group>"; };
 		2723CED3186E279C00B15536 /* CBJSONEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBJSONEncoder.m; sourceTree = "<group>"; };
+		272AA2391891CBBA001C44F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +147,7 @@
 		2723CC2D186E1CB700B15536 = {
 			isa = PBXGroup;
 			children = (
+				272AA2391891CBBA001C44F1 /* README.md */,
 				2723CC40186E1CB700B15536 /* CBJSON */,
 				2723CC55186E1CB700B15536 /* CBJSONTests */,
 				2723CC39186E1CB700B15536 /* Frameworks */,
